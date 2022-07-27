@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.header {
+    background-color: aquamarine;
+    background-image: url("../img/cover-laure-noverraz.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.opacity {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 900;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.main {
+    margin-top: 20px;
+    background-color: ghostwhite;
+}
+
