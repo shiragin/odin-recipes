@@ -32,7 +32,6 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px 30px;
-    background-color: aliceblue;
     background-image: url("../img/nordwood-themes-bg.jpg");
     background-size: contain;
 }
@@ -53,7 +52,8 @@
     margin-bottom: 10px;
 }
 
-.preview a {
+.preview a,
+.recipe a {
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -61,7 +61,9 @@
     text-align: center;
 }
 
-.preview a:hover {
+
+.preview a:hover,
+.recipe a:hover {
     color: rgb(173, 26, 26);
 }
 
@@ -73,6 +75,17 @@
     font-size: 18px;
     max-width: 600px;
     
+}
+
+.recipe a {
+    display: block;
+    margin: auto;
+}
+
+.recipe a img {
+    margin-top: 10px;
+    width: 40px;
+    height: auto;
 }
 
 .recipe p, 
